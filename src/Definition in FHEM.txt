@@ -1,0 +1,7 @@
+defmod Filamentwaage MQTT_DEVICE
+attr Filamentwaage userattr subscribeReading_Status
+attr Filamentwaage IODev Mosquitto
+attr Filamentwaage room Keller,MQTT
+attr Filamentwaage stateFormat transmission-state
+attr Filamentwaage subscribeReading_Status /ledunia/prusa/status
+
